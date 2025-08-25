@@ -63,6 +63,12 @@
     transform: translate(-50%, -40%) scale(1);
   }
 }
+
+@utility heading {
+
+  @apply font-bold text-4xl md:text-5xl text-center;
+}
+
 /* :root {
   --background: #ffffff;
   --foreground: #171717;
